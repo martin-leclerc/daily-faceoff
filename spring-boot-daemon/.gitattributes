@@ -1,0 +1,14 @@
+# Default
+*         text=auto
+
+# These files are text and should be normalized (convert CRLF => LF)
+*.config  text
+*.java    text
+*.xml     text
+
+# Text files with fixed EOL requirements
+*.bat     text eol=crlf
+*.sh      text eol=lf
+
+# Binary files
+*.exe     binary
